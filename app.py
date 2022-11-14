@@ -15,3 +15,6 @@ def main():
     crypto_prices = crypto_prices['coins']
     print(crypto_prices[0])
     return render_template('index.html', crypto_prices=crypto_prices)
+
+if __name__ == '__main__':
+   app.run()
